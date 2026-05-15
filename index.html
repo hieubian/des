@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DESHGH</title>
+  <meta name="description" content="Công cụ mô phỏng thuật toán mã hóa DES từng bước - Data Encryption Standard">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="app-header" id="appHeader">
+    <div class="header-inner">
+      <a href="#/" class="header-logo" id="headerLogo">
+        <span class="logo-icon">◆</span>
+        <span class="logo-text">DESHGH</span>
+      </a>
+      <div class="header-divider"></div>
+      <span class="header-subtitle" id="headerSubtitle"></span>
+    </div>
+  </header>
+
+  <main class="app-main" id="appMain">
+    <div class="container" id="appContent">
+      <!-- SPA content rendered here -->
+    </div>
+  </main>
+
+  <footer class="app-footer">
+    <p>DESHGH</p>
+  </footer>
+
+  <!-- Confirm Modal -->
+  <div class="modal-overlay" id="confirmModal">
+    <div class="modal-card">
+      <h3 class="modal-title" id="modalTitle">Xác nhận</h3>
+      <p class="modal-message" id="modalMessage">Bạn có chắc chắn?</p>
+      <div class="modal-actions">
+        <button class="btn btn-secondary" id="modalCancel">Hủy</button>
+        <button class="btn btn-danger" id="modalConfirm">Xóa</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script src="core.js"></script>
+  <script src="ui.js"></script>
+</body>
+
+</html>
